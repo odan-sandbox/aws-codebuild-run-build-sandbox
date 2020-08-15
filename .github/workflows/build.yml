@@ -20,3 +20,7 @@ jobs:
       uses: aws-actions/aws-codebuild-run-build@v1.0.3
       with:
         project-name: aws-codebuild-run-build-sandbox
+        buildspec-override: buildspecs/run-build.yaml
+# /codebuild/output/src613505839/src/github.com/odan-sandbox/buildspecs/run-build.yaml
+
+#pwd:  /codebuild/output/src889538216/src/github.com/odan-sandbox/aws-codebuild-run-build-sandbox
